@@ -89,8 +89,7 @@
                     echo "List contents. Please wait ....................."
                     ls -l
                     pwd
-                    cd scripts
-                    cat jenkins-master.sh
+                    
                 """
             }
         }
@@ -99,8 +98,7 @@
                 sh """
                     echo "List contents. Please wait ....................."
                     ls -l
-                    pwd
-                    whoami
+                    
                     
                 """
             }
