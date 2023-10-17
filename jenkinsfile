@@ -1,4 +1,4 @@
-pipeline {
+pipeline {
     agent any
     triggers {
         githubPush() // Enable GitHub webhook trigger for GitSCM polling
